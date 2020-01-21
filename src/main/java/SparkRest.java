@@ -14,8 +14,14 @@ public class SparkRest{
 
         port(DEFAULT_PORT);
 
+        /**
+         * Get basic response
+         */
         get("/hello", (req, res)-> "say " + HELLO);
 
+        /**
+         * Get basic response with url parameter name
+         */
         get("/hello/:name", (req,res)->{
             return HELLO +" "+ req.params(":name");
         });

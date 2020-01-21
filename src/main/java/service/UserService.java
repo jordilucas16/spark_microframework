@@ -1,8 +1,6 @@
 package service;
 
 import model.User;
-import org.springframework.stereotype.Service;
-
 import java.util.Collection;
 
 public interface UserService {
@@ -14,7 +12,6 @@ public interface UserService {
     User getUser (String id);
 
     User editUser (User user);
-            //throws UserException;
 
     void deleteUser (String id);
 

@@ -14,7 +14,6 @@ public class StandardResponse {
     private String message;
     private JsonElement data;
 
-
     public StandardResponse(StatusResponse status) {
         this.status = status;
     }
@@ -38,6 +37,5 @@ public class StandardResponse {
         StatusResponse(String status) {
             this.status = status;
         }
-
     }
 }
