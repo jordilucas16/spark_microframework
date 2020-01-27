@@ -8,5 +8,8 @@ Show how fast and easy is to config Spark microframework based on an example of 
 These are the the basic libs inside an spring framework ecosystem:
 
 com.sparkjava: spark microframework lib
+
 com.google.code.gson: json handler lib
+
 org.projectlombok: save to write boilerplate code like getters, setters or equals methods
+
