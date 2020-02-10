@@ -2,7 +2,9 @@ import com.google.gson.Gson;
 import model.User;
 import resp.StandardResponse;
 import service.impl.UserServiceImpl;
-import static spark.Spark.*;
+import static spark.Spark.get;
+import static spark.Spark.post;
+import static spark.Spark.port;
 
 public class SparkRest{
 
