@@ -1,5 +1,7 @@
 # spark_microframework
-Code example about API Rest with Spark microframework
+Code example about API Rest with [Spark microframework](http://sparkjava.com/)
+
+Spark - A micro framework for creating web applications in Kotlin and Java 8 with minimal effort
 
 # Motivations
 Show how fast and easy is to config Spark microframework based on an example of HTTP Rest API services.
