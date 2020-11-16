@@ -7,7 +7,7 @@ Spark - A micro framework for creating web applications in Kotlin and Java 8 wit
 Show how fast and easy is to config Spark microframework based on an example of HTTP Rest API services.
 
 # Libraries
-These are the the basic libs inside an spring framework ecosystem:
+These are the the basic libs inside an spring framework ecosystem all declared in the pom.xml descriptor file:
 
 com.sparkjava: spark microframework lib
 
